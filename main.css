@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /*background-color: #4F657C;    #344759*/
+    
+    color: #9CFFC5;
+    font-family: 'Roboto Slab', serif;
+}
+
+body {
+    background-color: #385980;
+}
+
+.container {
+    max-width: 100%;
+}
+
+
+header {
+    display: flex;
+    justify-content: center;
+    padding: 30px 30px;
+    background: linear-gradient(to bottom, #0e4d8b, #385980);
+    margin-bottom: 15px;
+}
+
+header h1 {
+    background-color: #1a3d68;
+    padding: 30px;
+    border-radius: 50px;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+form label {
+    margin-top: 10px;
+    margin-right: 10px;
+    background-color: transparent;
+}
+
+form input {
+    background-color: #012450;
+    margin-right: 10px;
+    padding: 3px;
+    border: 1px solid #9CFFC5;
+    border-radius: 4px;
+
+}
+
+button {
+    font-size: 16px;
+    background-color: #044419;
+    border: solid 3px #9CFFC5;
+    border-radius: 14px;
+    padding: 8px;
+    cursor: pointer;
+}
+
+
+
+ul {
+    margin: 0 30% 0 30%;
+
+}
+
+
+ul li {
+    background-color: #044419;
+    border: solid 3px #9CFFC5;
+    border-radius: 14px;
+    padding: 8px;
+    margin-bottom: 2px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+.checkbox-task {
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+}
+
+.checkbox-task:checked ~ label {
+    text-decoration: line-through;
+}
