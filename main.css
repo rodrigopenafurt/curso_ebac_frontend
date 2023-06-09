@@ -62,11 +62,6 @@ form input {
     margin-bottom: 5px;
 }
 
-form button {
-
-    
-
-}
 
 .block {
     display: block;
@@ -81,8 +76,6 @@ footer {
     border: 10px solid #9b0d0d;
 }
 
-#cep {
-}
 
 #nome-error.error {
     margin: 0;
