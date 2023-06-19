@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+header {
+    background-color: rgb(172, 223, 195);
+    color: rgb(0, 104, 31);
+    border-radius: 13px;
+}
+
+#tel {
+    margin-right: 8px;
+}
+
+h1 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 10px;
+    padding: 5px 0;
+}
+
+input {
+    margin-bottom: 15px;
+}
+
+button {
+    margin-left: 5px;
+}
+
+/*
+
+form {
+    margin-left: 10px;
+}
+
+input {
+    margin: 25px;
+}
+
+button {
+    margin-left: 5px;
+}
+
+*/
